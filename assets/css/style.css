@@ -521,3 +521,78 @@ a {
     line-height: 1.75;
     color: #575f66;
 }
+
+/* meet doctor */
+.meet-center {
+    text-align: center;
+}
+
+.meet-btn {
+    margin-top: 38px;
+
+}
+
+.meet__list {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.meet-item {
+    width: 25%;
+}
+
+.meet__images {
+    width: 270px;
+    height: 318px;
+    border-radius: 6px;
+}
+
+.meet__name {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #10375C;
+}
+
+.meet__address-work {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #575F66;
+}
+
+.meet__next-back {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.meet-next,
+.meet-back {
+    width: 36px;
+    height: 36px;
+    margin-top: 38px;
+    border: 1px solid #575F66;
+    border-radius: 50%;
+    color: #575F66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}   
+
+.meet-next:hover,
+.meet-back:hover {
+    background-color: #2E80CE;
+    color: #f7fbff;
+    border: 1px solid #2E80CE;
+}
+
+.khoa {
+    color: blue;
+}
