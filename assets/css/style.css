@@ -400,7 +400,6 @@ a {
 .ablout__row {
     display: flex;
     align-items: center;
-    
 }
 
 /* about-row */
@@ -415,7 +414,6 @@ a {
     position: relative;
     width: 570px;
     height: 491px;
-
 }
 
 .about__img:first-child {
@@ -434,7 +432,6 @@ a {
 }
 
 .about__block {
-
 }
 
 .about__heading {
@@ -462,7 +459,6 @@ a {
 .meet {
     padding-top: 170px;
     padding-bottom: 100px;
-    background: #f7fbff;
 }
 
 .meet__heading {
@@ -529,7 +525,6 @@ a {
 
 .meet-btn {
     margin-top: 38px;
-
 }
 
 .meet__list {
@@ -555,7 +550,7 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     text-align: center;
-    color: #10375C;
+    color: #10375c;
 }
 
 .meet__address-work {
@@ -563,7 +558,7 @@ a {
     font-size: 1.4rem;
     line-height: 1.86;
     text-align: center;
-    color: #575F66;
+    color: #575f66;
 }
 
 .meet__next-back {
@@ -577,22 +572,97 @@ a {
     width: 36px;
     height: 36px;
     margin-top: 38px;
-    border: 1px solid #575F66;
+    border: 1px solid #575f66;
     border-radius: 50%;
-    color: #575F66;
+    color: #575f66;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}   
+    object-fit: cover;
+}
 
 .meet-next:hover,
 .meet-back:hover {
-    background-color: #2E80CE;
+    background-color: #2e80ce;
     color: #f7fbff;
-    border: 1px solid #2E80CE;
+    border: 1px solid #2e80ce;
 }
 
-.khoa {
-    color: blue;
+/* indistall */
+.indistall {
+    padding-top: 165px;
+    padding-bottom: 100px;
+}
+
+.indistall__body {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    height: 427px;
+    background: #2e80ce;
+}
+
+.indistall__image {
+    margin-top: -95px;
+}
+
+.indistall__image-mobile {
+    width: 284px;
+    height: 522px;
+    margin-left: 70px;
+}
+
+.indistall__heading {
+    font-weight: 600;
+    font-size: 5rem;
+    width: 489px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.indistall__desc {
+    font-weight: 300;
+    width: 586px;
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.indistall__store {
+    display: flex;
+    gap: 28px;
+    margin-top: 38px;
+}
+
+.indistall__ggplay,
+.indistall__apstore {
+    display: flex;
+    padding: 6px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.store__link-one {
+    display: block;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.store__link-two {
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #fff;
+
+}
+
+.indistall__logo-ap {
+    width: 17.72px;
+    height: 21.78px;
 }
